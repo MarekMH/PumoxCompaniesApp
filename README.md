@@ -5,5 +5,5 @@ After the succesfull launch the swagger documentation will be found at: https://
 | login: | hasło: |
 | ------ | ------ |
 | test | test |
-- as an ORM the EF was used. It might be replaced with other engine if required.
+- Entinty Framework was my ORM of choice. It might be replaced with other engine if required.
 - Xunit used for unit tests writing.
