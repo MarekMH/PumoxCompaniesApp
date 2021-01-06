@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PumoxCompaniesApp.API</name>
+    </assembly>
+    <members>
+        <member name="M:PumoxCompaniesApp.API.Controllers.CompaniesController.CompanySearchAsync">
+            <summary>
+            Lists all companies.
+            </summary>
+            <returns>List os categories.</returns>
+        </member>
+        <member name="M:PumoxCompaniesApp.API.Controllers.CompaniesController.CompanySearchAsync(PumoxCompaniesApp.API.Resources.GetCompanyResourceQuery)">
+            <summary>
+            Lists all companies.
+            </summary>
+            <returns>List os categories.</returns>
+            <summary>
+            Shows company within given range.
+            </summary>
+            <returns>List os companies.</returns>
+        </member>
+        <member name="M:PumoxCompaniesApp.API.Controllers.CompaniesController.CompanyCreateAsync(PumoxCompaniesApp.API.Resources.SaveAndUpdateCompanyResourceQuery)">
+            <summary>
+            Saves a new company.
+            </summary>
+            <param name="resource">Company data.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:PumoxCompaniesApp.API.Controllers.CompaniesController.CompanyUpdateAsync(System.Int64,PumoxCompaniesApp.API.Resources.SaveAndUpdateCompanyResourceQuery)">
+            <summary>
+            Updates an existing company according to an identifier.
+            </summary>
+            <param name="id">Company identifier.</param>
+            <param name="resource">Updated company data.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:PumoxCompaniesApp.API.Controllers.CompaniesController.CompanyDeleteAsync(System.Int64)">
+            <summary>
+            Deletes a given company according to an identifier.
+            </summary>
+            <param name="id">Company identifier.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:PumoxCompaniesApp.API.Domain.Services.Communication.CompanyResponse.#ctor(PumoxCompaniesApp.API.Domain.Models.Company)">
+            <summary>
+            Creates a success response.
+            </summary>
+            <param name="company">Saved category.</param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:PumoxCompaniesApp.API.Domain.Services.Communication.CompanyResponse.#ctor(System.String)">
+            <summary>
+            Creates am error response.
+            </summary>
+            <param name="message">Error message.</param>
+            <returns>Response.</returns>
+        </member>
+    </members>
+</doc>
